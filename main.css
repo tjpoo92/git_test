@@ -2,8 +2,20 @@ h1{
     color: purple;
 }
 
-ul{
+ul.header-left{
     list-style-type: none;
     margin: 0;
     padding:0;
+    float: left;
+}
+
+ul.header-right{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    float:right;
+}
+
+li{
+    display:inline;
 }
