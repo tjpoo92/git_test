@@ -13,6 +13,26 @@ ul.header-right{
     float:right;
 
 }
+ul.footer-left{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    float: left;
+    }
+
+    ul.footer-right{
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        float:right;
+    
+    }
+    nav.foot-nav{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: grey;
+    }
 
 a:link{
     color: black;
