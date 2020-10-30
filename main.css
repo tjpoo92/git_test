@@ -19,24 +19,27 @@ ul.header-left {
 
 ul.header-right {
   list-style-type: none;
-  margin: 7px 0 0 10px;
-  padding: 0;
+  margin: 0 0 0 10px;
+  padding: 0 30px 0 0;
   float: right;
 }
 a.about {
   padding-left: 15px;
+  color: #000;
 }
 a.store {
   padding-left: 15px;
+  color: #000;
 }
 a.gmail {
   padding-left: 15px;
+  color: #000;
 }
 a.images {
   padding-left: 15px;
+  color: #000;
 }
 a.apps {
-  /* fix so image is local */
   background-image: url("images/google-icons.png");
   background-size: 528px 68px;
   background-position: -132px -38px;
@@ -67,9 +70,27 @@ img.google-logo {
   width: auto;
 }
 div.img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 47px 0 0 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 50%;
+}
+
+.search {
+  margin: 20px 0 0 0;
+  border-radius: 24px;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  width: 582px;
+}
+
+.search:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
 }
 
 nav.foot-nav {
@@ -96,4 +117,6 @@ li {
   color: #fff;
   border: 1px solid #4285f4;
   background-color: #4285f4;
+  padding: 0 12px;
+  line-height: 28px;
 }
